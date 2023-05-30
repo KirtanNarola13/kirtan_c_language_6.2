@@ -3,18 +3,14 @@
 void main ()
 {
 int i;
-int a=0;
+int a=-1;
 int b=1;
 int c;
 int n;
 clrscr();
 printf("Enter the number of your last range : ");
 scanf("%d",&n);
-for(i=0;i<=n;i++){
-if(i<=1){
-    c=i;
-}
-else {
+for(i=1;i<=n;i++){
     c=a+b;
     a=b;
     b=c;
